@@ -1,0 +1,16 @@
+{application, ec2,
+ [{description, "ec2 metadata"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    jsx
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, ["alisdair sullivan"]},
+  {licenses, ["Apache"]},
+  {links, [{"GitHub", "https://github.com/talentdeficit/ec2"}]}
+ ]}.
