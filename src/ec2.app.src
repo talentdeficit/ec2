@@ -1,6 +1,6 @@
 {application, ec2,
  [{description, "ec2 metadata"},
-  {vsn, "0.1.0"},
+  {vsn, "0.9.1"},
   {registered, []},
   {applications,
    [kernel,
